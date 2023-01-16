@@ -20,7 +20,7 @@ nav {
 
 nav i {
     font-size: 40px;
-    color:aliceblue;
+    color: aliceblue;
 }
 
 .hero-section {
@@ -149,4 +149,25 @@ footer {
         border-radius: 0;
     }
 
+}
+
+@media (max-width:380px) {
+
+    input {
+        width: 300px;
+    }
+
+    select {
+        width: 300px;
+    }
+
+    form h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        width: 250px;
+        text-align: center;
+    }
 }
