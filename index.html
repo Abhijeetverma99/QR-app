@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="hero-section">
+        <nav>
+            <i class="fa-sharp fa-solid fa-qrcode"></i>
+            <h3>QR App</h3>
+
+        </nav>
+        <div class="hero-main">
+            <div class="form-div">
+
+                <form>
+                    <h1>Here you can generate your own QR <br> 👇 </h1>
+                    <input required type="text" placeholder="Type anything here...">
+
+
+                    <select class="form-select" aria-label="Default select example">
+
+                        <option selected>Please select your QR size</option>
+                        <option value="250x250">Small</option>
+                        <option value="300x300">Medium</option>
+                        <option value="450x450">Big</option>
+
+                    </select>
+
+                    <button value="submit" class="generate-btn">Generate QR</button>
+
+                </form>
+                <button class="delete">Refresh </button>
+                <p>Before refreshing make sure you have scanned your &nbsp; "QR"
+                </p>
+            </div>
+
+            <div class="image-div">
+
+
+                <img src="./c1b16047cac8e5c53c448ca2744ae77b.gif" alt="">
+
+
+            </div>
+        </div>
+    
+    </section>
+
+    <script src="https://kit.fontawesome.com/e102b02cd7.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
